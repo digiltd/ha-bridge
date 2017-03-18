@@ -1,5 +1,4 @@
 .scrollableContainer {
-    height: 310px;
     position: relative;
     padding-top: 35px;
     overflow: hidden;
@@ -28,13 +27,9 @@
 }
 
 .scrollArea {
-    height: 100%;
     overflow-x: auto;
     overflow-y: auto;
     border: 1px solid #d5d5d5;
-    /*  the implementation of this is still quite buggy; specifically, it doesn't like the 
-        absolutely positioned headers within 
-    -webkit-overflow-scrolling: touch;  */
     -webkit-overflow-scrolling: auto; 
 }
 .scrollArea table {
